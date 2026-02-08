@@ -44,3 +44,36 @@ store data in a database, and retrieve employee salary information.
 | total_salary    | Total Salary |
 
 ---
+## Project Structure
+src/
+└── com/payroll/
+├── MainApp.java
+├── Employee.java
+├── PayrollService.java
+└── DatabaseUtility.java
+
+## Project Flow
+1. Application starts and displays menu options.
+2. User enters employee ID, name, and basic salary.
+3. HRA and DA are calculated using separate methods.
+4. Employee data is stored temporarily in arrays.
+5. Payroll data is saved permanently in the database using JDBC.
+6. User can retrieve employee salary details using employee ID.
+7. The application continues running until the user chooses to exit.
+
+---
+
+## Functional Requirements Implemented
+- Add employee payroll details
+- Salary calculation using separate methods
+- Temporary storage using arrays
+- Permanent storage using JDBC and MySQL
+- Retrieve employee salary using employee ID
+- Input validation and exception handling
+- Continuous execution until exit
+
+  ## Conclusion
+This project provides practical exposure to Core Java programming with JDBC connectivity.
+It enhances understanding of arrays, loops, methods, and database operations.
+The application demonstrates how Java logic and database systems work together in
+real-time applications using JDK 21.
