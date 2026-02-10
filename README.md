@@ -44,13 +44,6 @@ store data in a database, and retrieve employee salary information.
 | total_salary    | Total Salary |
 
 ---
-## Project Structure
-src/
-└── com/payroll/
-├── MainApp.java
-├── Employee.java
-├── PayrollService.java
-└── DatabaseUtility.java
 
 ## Project Flow
 1. Application starts and displays menu options.
